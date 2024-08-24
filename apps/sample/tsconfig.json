@@ -1,3 +1,11 @@
 {
-  "extends": "@sample/tsconfig/tsconfig.json"
+  "extends": "@sample/tsconfig/tsconfig.json",
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

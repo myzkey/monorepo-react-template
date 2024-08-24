@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sample/eslint-config": "link:../../packages/eslint-config",
+    "@sample/tsconfig": "link:../../packages/tsconfig",
+    "@sample/ui": "link:../../packages/ui",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

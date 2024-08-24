@@ -1,12 +1,12 @@
-import './App.css'
+import { Text } from "@sample/ui/components/Text";
+import "./App.css";
 
 function App() {
-
   return (
     <div>
-      <h1>Sample</h1>
+      <Text color="red">Sample</Text>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
